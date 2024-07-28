@@ -1,7 +1,7 @@
 body {
-  color: black;
+  color: rgb(63, 62, 62);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: lightcyan;
+  background: beige;
 }
 .container {
   margin: 60px auto;
@@ -9,7 +9,7 @@ body {
   padding: 30px;
   background: #ffffff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border: cyan 1px solid;
+  border: light beige 1px solid;
   border-radius: 20px;
 }
 h1 {
@@ -24,9 +24,9 @@ h2 {
 }
 select {
   width: 100%;
-  background: lightcyan;
+  background: beige;
   padding: 16px;
-  border: cyan 2px solid;
+  border: rgb(189, 188, 188) 2px solid;
   border-radius: 10px;
   font-weight: 400;
   font-size: 18px;
@@ -38,7 +38,7 @@ select {
   margin: 20px 0;
   justify-content: space-between;
   padding: 20px 0;
-  border-bottom: 1px dashed cyan;
+  border-bottom: 1px dashed rgb(189, 188, 188);
 }
 .city :last-child {
   border: none;
